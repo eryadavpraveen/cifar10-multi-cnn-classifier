@@ -27,25 +27,25 @@ All models are trained on the CIFAR-10 dataset and saved for deployment.
 
 - 10 classes:
 
-- - Airplane
+  - Airplane
 
-- - Automobile
+  - Automobile
 
-- - Bird
+  - Bird
 
-- - Cat
+  - Cat
 
-- - Deer
+  - Deer
 
-- - Dog
+  - Dog
 
-- - Frog
+  - Frog
 
-- - Horse
+  - Horse
 
-- - Ship
+  - Ship
 
-- - Truck
+  - Truck
 
 #### Dataset is loaded directly from TensorFlow:
 ```bash
@@ -85,30 +85,30 @@ ModelCheckpoint(save_best_only=True)
 streamlit run app.py
 ```
 
-Features of Web App
+##### Features of Web App
 
-Select any trained model
+- Select any trained model
 
-Upload an image (jpg/png)
+- Upload an image (jpg/png)
 
-Automatic preprocessing
+- Automatic preprocessing
 
-Top prediction with confidence
+- Top prediction with confidence
 
-Top-3 predictions
+- Top-3 predictions
 
-Probability bar chart
+- Probability bar chart
 
-🧠 Technologies Used
+##### 🧠 Technologies Used
 
-TensorFlow / Keras
+- TensorFlow / Keras
 
-Streamlit
+- Streamlit
 
-NumPy
+- NumPy
 
-Pandas
+- Pandas
 
-Matplotlib
+- Matplotlib
 
-Pillow
+- Pillow

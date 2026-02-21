@@ -6,9 +6,9 @@ Multi-CNN image classification project using AlexNet, LeNet-5, VGG-16, and ResNe
 
 A Deep Learning project that trains and compares multiple CNN architectures on the CIFAR-10 dataset and deploys them using a Streamlit web application.
 
-#### 📌 Models Implemented
+### 📌 Models Implemented
 
-##### This project implements and compares the following CNN architectures:
+#### This project implements and compares the following CNN architectures:
 
 - AlexNet
 - LeNet-5
@@ -17,7 +17,7 @@ A Deep Learning project that trains and compares multiple CNN architectures on t
 
 All models are trained on the CIFAR-10 dataset and saved for deployment.
 
-##### 📊 Dataset Used
+#### 📊 Dataset Used
 
 - CIFAR-10 Dataset
 
@@ -66,7 +66,7 @@ cnn_alexnet_lenet_vgg_resnet_model/
 └── save_models/        # Saved trained models
 ```
 ## ⚙️ Training Models
-##### Run the training script:
+#### Run the training script:
 ```bash
 python train.py
 ```
@@ -75,17 +75,17 @@ This will:
 - Save best models in save_models/
 - Evaluate performance on test dataset
 
-##### Models are saved using:
+#### Models are saved using:
 ```bash
 ModelCheckpoint(save_best_only=True)
 ```
 ## 🌐 Running the Web Application
-##### After training models, start the Streamlit app:
+#### After training models, start the Streamlit app:
 ```bash
 streamlit run app.py
 ```
 
-##### Features of Web App
+#### Features of Web App
 
 - Select any trained model
 
@@ -99,7 +99,7 @@ streamlit run app.py
 
 - Probability bar chart
 
-##### 🧠 Technologies Used
+#### 🧠 Technologies Used
 
 - TensorFlow / Keras
 
